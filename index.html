@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIFA Soccer Rankings Visualization Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .chart-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .chart {
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .legend {
+            margin-top: 20px;
+        }
+        .legend p {
+            margin: 5px 0;
+        }
+	.video-container {
+            margin-top: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>FIFA Soccer Rankings Visualization Project</h1>
+
+    <div class="section">
+        <h2>Introduction</h2>
+        <p>This project aims to explore the dynamics of international soccer rankings and how they have evolved over time using the FIFA Men's Soccer Rankings dataset. By delving into interactive visualizations, we seek to uncover insights into the factors influencing team rankings, the competitiveness across continents, and the trends leading up to major tournaments like the FIFA World Cup. One question we aim to address is whether Europe truly dominates with powerhouse teams.</p>
+    </div>
+
+    <div class="section">
+        <h2>Design Process</h2>
+        <p>Our exploration is guided by several key questions:</p>
+        <ul>
+            <li>How do the rankings of European teams change over time?</li>
+            <li>What accounts for the increased ranking volatility of European teams since 2006?</li>
+            <li>Why has the European continent been recognized as the strongest football continent?</li>
+            <li>How does the distribution of FIFA rankings among continents reflect the dominance of European football?</li>
+                   </ul>
+        <p>These questions influenced our design process as we aimed to create visualizations that would help us find answers. Let's sketch out some initial designs:</p>
+    </div>
+
+   <div class="section">
+    <h2>Visualization </h2>
+    <p>Here are the details of our visualizations:</p>
+
+    <p><strong>FIFA Soccer Rankings Over Time by Continent:</strong> Line chart showing rankings of each country over time.</p>
+
+     <p><strong>Ranking Change Over Time by Continent:</strong> Scatterplot showing ranking changes by Continent.</p>
+
+    <p><strong>Average FIFA Rankings by Continent:</strong> Horizontal bar chart comparing average rankings by continent.</p>
+
+    <p><strong>Confederation Comparison:</strong> Pie chart comparing FIFA ranking distributions among continents.</p>
+
+   </div>
+
+    <div class="section">
+    <h2>Insights Discovered</h2>
+    
+    <p>The European continent's football teams maintain consistent rankings over time, with many european countries positioned within the top ranking. As evident from the graph, the blue color representing Europe consistently holds top positions without significant fluctuations, unlike Asia (purple) and Oceania (brown). This stable ranking reflects the strength of European football. </p>
+<p>Since 2006, the increased ranking volatility of European teams reflects heightened competitiveness. The emergence of strong teams from traditionally weaker football nations intensified competition, leading to greater fluctuations in rankings. However, despite this trend, Europe maintains a characteristic of stable rankings, with fewer teams experiencing significant fluctuations.</p>
+<p>Europe and South America consistently rank highest in terms of average FIFA rankings. Notably, South America demonstrates a tendency to maintain a consistently high and stable average ranking, similar to Europe, solidifying their status as football powerhouses. However, this does not diminish Europe's prowess in football. With a multitude of football leagues spanning across different countries, Europe boasts a rich history and tradition in the sport, continuously nurturing and producing world-class players.</p>
+<p>The distribution of FIFA rankings among continents serves as a testament to the dominance of European football. This dominance is evident in pie chart representations where Europe, highlighted in blue, consistently holds the largest proportion of rankings compared to other continents. Additionally, Europe maintains the highest average rankings among all continents, as depicted in bar charts. These visualizations underscore the prevalent presence and influence of European football teams on the global stage.</p>
+<p>In summary, our analysis of the FIFA Men's Soccer Rankings dataset confirms Europe's status as a football powerhouse. Through stable rankings, increased volatility since 2006, and dominance in the distribution of FIFA rankings among continents, Europe's legacy and performance in football remain unparalleled.</p>
+
+   </div>
+    
+
+    <div class="section">
+        <h2>Video Presentation</h2>
+        <!-- Embed your YouTube video here -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="visualization.js"></script>
+
+</body>
+</html>
